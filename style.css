@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('2.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.6); /* Red glow effect */
+    border: 2px solid red;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: red;
+    text-shadow: 0 0 5px red;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    transition: all 0.3s;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: white;
+}
+
+button {
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    text-shadow: 0 0 5px red;
+}
