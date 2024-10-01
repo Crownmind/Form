@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Access Restricted</h1>
+        <p>Please enter your roll and password to continue</p>
+        <form id="loginForm">
+            <label for="roll">Your Roll:</label>
+            <input type="text" id="roll" name="roll" required placeholder="Enter your roll">
+            
+            <label for="password">Your Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Enter your password">
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
